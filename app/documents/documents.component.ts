@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import { Document } from'./document';
+
+import { Document } from './document';
+
 
 @Component({
 	moduleId: module.id,
@@ -8,28 +10,29 @@ import { Document } from'./document';
 })
 export class DocumentsComponent {
 	pageTitle: string = "Document Dashboard"
-	
-	documents: Document[] = [
+
+
+	documents: Document [] = [
 		{
 			title: "My First Doc",
-			description: 'asdfasdfasdf asdfasdf',
-			file_url: 'http://google.com',
-			updated_at: '11/16/16',
-			image_url: 'http://google.com',
+			description: "gibberish asdfasdf",
+			file_url: "http://youtube.com",
+			updated_at: "11/16/16",
+			image_url: "http://youtube.com",
 		},
 		{
 			title: "My Second Doc",
-			description: 'asdfasdfasdf asdfasdf',
-			file_url: 'http://google.com',
-			updated_at: '11/16/16',
-			image_url: 'http://google.com',
+			description: "gibberish asdfasdf",
+			file_url: "http://youtube.com",
+			updated_at: "11/16/16",
+			image_url: "http://youtube.com",
 		},
 		{
 			title: "My Last Doc",
-			description: 'asdfasdfasdf asdfasdf',
-			file_url: 'http://google.com',
-			updated_at: '11/16/16',
-			image_url: 'http://google.com',
+			description: "gibberish asdfasdf",
+			file_url: "http://youtube.com",
+			updated_at: "11/16/16",
+			image_url: "http://youtube.com",
 		}
 	]
 }
